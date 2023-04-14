@@ -25,7 +25,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  color: #333;
+  color: #FFFFFF;
 }
 
 *,
@@ -66,6 +66,10 @@ h5 {
 p {
   font-family: "RotondaCRegular";
   font-size: 16px;
+}
+
+.Text span {
+  font-weight: 800;
 }
 
 hr {
@@ -129,22 +133,6 @@ body {
   margin-top: 120px;
   z-index: 10;
   width: 520px;
-}
-.MainPage .MainPage__inner .Main__text .Main__title {
-  font-size: 30px;
-  font-family: "RotondaCBold";
-  font-weight: 800;
-  color: var(--color-textWheat);
-  margin-bottom: 20px;
-}
-.MainPage .MainPage__inner .Main__text .Main__subtitle {
-  font-size: 18px;
-  font-family: "RotondaCRegular";
-  color: var(--color-textWheat);
-  font-weight: 100;
-}
-.MainPage .MainPage__inner .Main__text .Main__subtitle span {
-  font-weight: bold;
 }
 .MainPage .MainPage__inner .Main__img {
   position: relative;
@@ -225,10 +213,7 @@ body {
   right: 45px;
   z-index: 2;
 }
-.about .about__inner .about__text span {
-  font-weight: 600;
-}
-.about .about__inner .about__text .about__text__inner {
+.about .about__inner .about__text .Text {
   width: 520px;
 }
 .about .about__inner .img__grace {
@@ -279,6 +264,10 @@ body {
   transform: rotate(16deg);
   right: 25px;
   top: 35px;
+}
+
+.research .reserch__text .Text {
+  width: 514px;
 }
 
 /*# sourceMappingURL=index.css.map */
