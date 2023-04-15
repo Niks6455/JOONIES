@@ -8,7 +8,15 @@
   height: 244px;
   transform: rotate(-14deg);
   left: -105px;
-  top: 70px;
+  top: 50px;
+}
+@media screen and (max-width: 380px) {
+  .Heart1 {
+    width: 180px;
+    height: 180px;
+    left: 135px;
+    top: 100px;
+  }
 }
 
 .Heart2 {
@@ -18,13 +26,23 @@
   right: 0;
   top: -35px;
 }
+@media screen and (max-width: 380px) {
+  .Heart2 {
+    display: none;
+  }
+}
 
 .Heart3 {
   width: 134px;
   height: 134px;
   transform: rotate(16deg);
   right: 58%;
-  bottom: 25px;
+  bottom: 75px;
+}
+@media screen and (max-width: 380px) {
+  .Heart3 {
+    display: none;
+  }
 }
 
 .Heart4 {
@@ -32,7 +50,12 @@
   height: 77px;
   transform: rotate(-15deg);
   right: 70%;
-  bottom: 0;
+  bottom: 25px;
+}
+@media screen and (max-width: 380px) {
+  .Heart4 {
+    display: none;
+  }
 }
 
 .Heart5, .Heart6, .Heart7 {
@@ -47,6 +70,11 @@
   left: -35px;
   top: 25px;
 }
+@media screen and (max-width: 380px) {
+  .Heart5 {
+    display: none;
+  }
+}
 
 .Heart6 {
   width: 189px;
@@ -55,6 +83,14 @@
   right: 50px;
   top: -200px;
 }
+@media screen and (max-width: 380px) {
+  .Heart6 {
+    width: 150px;
+    height: 150px;
+    right: -15px;
+    top: -250px;
+  }
+}
 
 .Heart7 {
   width: 118px;
@@ -62,6 +98,14 @@
   transform: rotate(16deg);
   right: 25px;
   top: 35px;
+}
+@media screen and (max-width: 380px) {
+  .Heart7 {
+    width: 80px;
+    height: 80px;
+    right: 0px;
+    top: -100px;
+  }
 }
 
 .Heart8, .Heart9, .Heart10, .Heart11 {
@@ -76,6 +120,11 @@
   right: 68%;
   top: -175px;
 }
+@media screen and (max-width: 380px) {
+  .Heart8 {
+    display: none;
+  }
+}
 
 .Heart9 {
   width: 121px;
@@ -83,6 +132,11 @@
   transform: rotate(16deg);
   right: 55%;
   top: -145px;
+}
+@media screen and (max-width: 380px) {
+  .Heart9 {
+    display: none;
+  }
 }
 
 .Heart10 {
@@ -92,6 +146,15 @@
   right: 41%;
   top: 115px;
 }
+@media screen and (max-width: 380px) {
+  .Heart10 {
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 345px;
+    z-index: 2;
+  }
+}
 
 .Heart11 {
   width: 94px;
@@ -99,6 +162,11 @@
   transform: rotate(14deg);
   right: 35px;
   top: -115px;
+}
+@media screen and (max-width: 380px) {
+  .Heart11 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=heart.css.map */

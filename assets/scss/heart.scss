@@ -8,7 +8,13 @@
   height: 244px;
   transform: rotate(-14deg);
   left: -105px;
-  top: 70px;
+  top: 50px;
+  @media screen and (max-width: 380px) {        
+    width: 180px;
+    height: 180px;
+    left: 135px;
+    top: 100px;
+   }
 }
 .Heart2{
   width: 244px;
@@ -16,20 +22,29 @@
   transform: rotate(16deg);
   right: 0;
   top: -35px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
 .Heart3{
   width: 134px;
   height: 134px;
   transform: rotate(16deg);
   right: 58%;
-  bottom: 25px;
+  bottom: 75px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
 .Heart4{
   width: 77px;
   height: 77px;
   transform: rotate(-15deg);
   right: 70%;
-  bottom: 0;
+  bottom: 25px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
 
 //aboutHeart
@@ -43,6 +58,9 @@
   transform: rotate(-14deg);
   left: -35px;
   top: 25px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
 .Heart6{
   width: 189px;
@@ -50,6 +68,12 @@
   transform: rotate(-14deg);
   right: 50px;
   top: -200px;
+  @media screen and (max-width: 380px) {        
+    width: 150px;
+    height: 150px;
+    right: -15px;
+    top: -250px;
+   }
 }
 .Heart7{
   width: 118px;
@@ -57,6 +81,12 @@
   transform: rotate(16deg);
   right: 25px;
   top: 35px;
+  @media screen and (max-width: 380px) {        
+    width: 80px;
+    height: 80px;
+    right: 0px;
+    top: -100px;
+   }
 }
 
 //researchHeart
@@ -70,6 +100,9 @@
   transform: rotate(-15deg);
   right: 68%;
   top: -175px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
 .Heart9{
     width: 121px;
@@ -77,6 +110,9 @@
     transform: rotate(16deg);
     right: 55%;
     top: -145px;
+    @media screen and (max-width: 380px) {        
+      display: none;
+     }
 }
 .Heart10{
   width: 178px;
@@ -84,6 +120,13 @@
   transform: rotate(-14deg);
   right: 41%;
   top: 115px;
+  @media screen and (max-width: 380px) {        
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 345px;
+    z-index: 2;
+   }
 }
 .Heart11{
   width: 94px;
@@ -91,4 +134,7 @@
   transform: rotate(14deg);
   right: 35px;
   top: -115px;
+  @media screen and (max-width: 380px) {        
+    display: none;
+   }
 }
